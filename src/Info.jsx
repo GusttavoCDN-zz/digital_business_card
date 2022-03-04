@@ -8,11 +8,22 @@ const photo = (
 );
 
 const myName = <h1 className="my_name">Gustavo da Silva</h1>;
+
 const myRole = (
   <h2 className="my_role">Web Development and Softwer Engineer Student</h2>
 );
+
 const github = (
-  <a className="my_site" href="https://github.com/gusttavocdn"></a>
+  <a className="my_site" href="https://github.com/gusttavocdn">
+    github.com/gusttavocdn
+  </a>
+);
+
+const buttons = (
+  <div className="buttons_div">
+    <button className="Email">Email</button>
+    <button className="Linkedin">Linkedin</button>
+  </div>
 );
 
 class Info extends Component {
@@ -23,6 +34,7 @@ class Info extends Component {
         {myName}
         {myRole}
         {github}
+        {buttons}
       </div>
     );
   }

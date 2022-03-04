@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Quicksand:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
+
 #card {
   margin: 10px auto;
   border: 1px solid black;
@@ -15,9 +19,28 @@
 
 .info {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.my_photo {
+.my_photo, figure {
   width: 100%;
   height: 400px;
+}
+
+.my_name {
+  margin-top: 1.5rem;
+  font-family: Inter, sans-serif;
+}
+
+.my_role {
+  font-family: Inter, sans-serif;
+  font-weight: normal;
+  color: #F3BF99;
+}
+
+.my_site {
+  font-family: Inter, sans-serif;
+  color: #F5F5F5;
 }
