@@ -13,7 +13,7 @@ const photo = (
 const myName = <h1 className="my_name">Gustavo da Silva</h1>;
 
 const myRole = (
-  <h3 className="my_role">Web Development and Softwer Engineer Student</h3>
+  <h3 className="my_role">Web Development and Software Engineer Student</h3>
 );
 
 const github = (
