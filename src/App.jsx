@@ -10,6 +10,9 @@ class App extends React.Component {
     return (
       <div id="card">
         <Info />
+        <About />
+        <Interests />
+        <Footer />
       </div>
     );
   }
