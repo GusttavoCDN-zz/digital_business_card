@@ -1,8 +1,10 @@
 import { Component } from 'react';
+import './Footer.css';
 import twitter from './images/twitter_icon.png';
 import instagram from './images/instagram_icon.png';
 import facebook from './images/facebook_icon.png';
 import github from './images/gitHub_icon.png';
+
 
 class Footer extends Component {
   render() {

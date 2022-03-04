@@ -1,7 +1,8 @@
 import { Component } from 'react';
+import './About_Interests.css';
 
 const interestP = (
-  <p>Food expert. Music scholar. Reader, Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffe fanatic.</p>
+  <p>Curioso por natureza. Apaixonado por cultura geek, nerd, otaku. Eximio esportista e um repositorio de informações aleatorias sobre o mundo.</p>
 );
 class Interests extends Component {
   render() {

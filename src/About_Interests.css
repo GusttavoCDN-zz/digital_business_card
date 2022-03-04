@@ -1,0 +1,15 @@
+.about, .interests {
+  margin: 0.5rem 0;
+  padding: 0.5rem 2.5rem;
+}
+
+.interests_title, .about_title {
+  color: #F5F5F5;
+  font-size: 1.2rem;
+  line-height: 150%;
+}
+
+.interests p, .about p {
+  line-height: 150%;
+  text-align: justify;
+}

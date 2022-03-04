@@ -1,19 +1,23 @@
-import { Component } from 'react';
-
+import { Component } from "react";
+import './About_Interests.css';
 
 const aboutP = (
-  <p> I am a frontend developer with a particular interest in making thinkgs simple and automating daily tasks. I try to keep up with security and best practices, abd always looking for new thinkgs to learn.</p>
+  <p>
+    Estudante de Desenvolvimento Web e Engenharia de Software nas escolas Trybe
+    e 42SP. Apaixonado por tecnologia e conhecimento o cara que sempre esta a
+    procura de solução para os problemas.
+  </p>
 );
 
 class About extends Component {
   render() {
     return (
-      <div className='about'>
-        <h2 className='about_title'>About</h2>
+      <div className="about">
+        <h2 className="about_title">About</h2>
         {aboutP}
       </div>
     );
   }
 }
 
-export default About
+export default About;
